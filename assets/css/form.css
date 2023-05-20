@@ -1,0 +1,40 @@
+.form {
+    padding: 16px;
+}
+.form input, .form textarea {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 6px 10px;
+    width: 100%;
+    max-width: 200px;
+}
+.form .error {
+    margin-bottom: 4px;
+    color: #b94a48;
+    text-align: center;
+}
+.form .group {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.form .group label {
+    padding-right: 10px;
+    cursor: pointer;
+    max-width: 100px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 540px) {
+    .form .group {
+        flex-direction: column;
+    }
+    .form .group label {
+        margin-bottom: 4px;
+        padding: 0;
+        width: 100%;
+        max-width: 200px;
+    }
+}

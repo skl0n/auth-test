@@ -1,0 +1,9 @@
+.not_found {
+    font-size: 32px;
+    text-align: center;
+    padding-top: 32px;
+}
+
+.not_found span {
+    color: #da4f49;
+}

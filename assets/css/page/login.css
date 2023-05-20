@@ -1,0 +1,28 @@
+.login_page .content_container {
+    display: flex;
+}
+.login_page .content_container .container {
+    align-self: center;
+}
+.login_page .login-form {
+    display: flex;
+    justify-content: center;
+}
+.login_page form {
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.authorization_congratulations {
+    display: none;
+}
+.authorization_congratulations.modal {
+    display: flex !important;
+    justify-content: center;
+}
+.congratulations_block {
+    align-self: center;
+    text-align: center;
+}

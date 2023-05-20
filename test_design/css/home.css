@@ -1,0 +1,221 @@
+.head {
+    background: var(--primary-color);
+    padding-top: 24px;
+    position: relative;
+}
+
+.head_info {
+    margin-top: 150px;
+}
+@media only screen and (max-width: 810px) {
+    .head_info {
+        margin-top: 100px;
+    }
+}
+.head_info .title_log {
+    font-size: 36px;
+    font-family: "Inter Bold";
+}
+
+.head_info .description_log {
+    font-size: var(--font-size-xlarge);
+    margin-top: 14px;
+}
+.head_info button {
+    margin-top: 38px;
+}
+@media only screen and (max-width: 810px) {
+    button.wide {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 343px;
+        width: 100%;
+    }
+}
+
+.head_info .title_log span {
+    color: var(--primary-darker-color);
+    background: var(--lighter-color);
+    padding:12px;
+    border-radius: 12px;
+}
+
+.head_preview {
+    position: relative;
+}
+.head_preview .head_img {
+    width: 100%;
+    padding-top: 150%;
+    position: relative;
+}
+
+.head_preview .head_img .image {
+    position: absolute;
+    background: url(../images/phone_in_hand.svg) no-repeat;
+    background-size: contain;
+    z-index: 1;
+    height: 150%;
+    width: 150%;
+    top: 0;
+    left: -10%;
+}
+
+@media only screen and (max-width: 810px) {
+    .head_preview .head_img {
+        padding-top: 100%;
+    }
+}
+.head_preview .languages {
+    position: absolute;
+    margin: 0;
+    right: 0;
+    top: 0;
+    display: flex;
+    padding: 0;
+}
+.head_preview .languages li {
+    padding: 2px 4px;
+    list-style-type: none;
+    margin-right: 12px;
+}
+.head_preview .languages li a {
+    text-decoration: none;
+    color: var(--text-primary-color);
+}
+
+.head_preview .languages li.active {
+    background: var(--lighter-color);
+    border-radius: 12px;
+}
+.head_preview .languages li.active a {
+    color: var(--primary-darker-color);
+}
+.advantages {
+    z-index: 3;
+    position: relative;
+    margin-bottom: -20px;
+    margin-top: -10%;
+}
+
+@media only screen and (max-width: 810px) {
+    .advantages {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+.advantages .col {
+    margin-top: 20px;
+}
+.advantages .col .rounded {
+    height: 100%;
+    padding-right: 68px;
+    position: relative;
+    display: flex;
+    max-height: 130px;
+}
+.advantages .col .rounded .icon {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+@media only screen and (max-width: 810px) {
+    .advantages .col .rounded {
+        padding-top: 40px;
+        padding-right: 16px;
+    }
+    .advantages .col .rounded .icon {
+        top: -6px;
+        left: 16px;
+        right: auto;
+    }
+}
+
+.platform_content {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width: 810px) {
+    .platform_content {
+        margin-top: 40px;
+    }
+}
+.platform_content .rounded {
+    padding: 20px;
+    position: relative;
+    margin-top: 20px;
+}
+.platform_content .image_block {
+    padding-top: 75%;
+    margin-bottom: -26px;
+    position: relative;
+    overflow: visible;
+}
+@media only screen and (max-width: 810px) {
+    .platform_content .image_block {
+        padding-top: 50%;
+    }
+}
+
+.platform_content .image_block.risk_lvl_3_image {
+    background: url(../images/risk_level_3.svg) no-repeat bottom;
+    background-size: contain;
+}
+.platform_content .image_block.risk_lvl_1_image {
+    background: url(../images/risk_level_1.svg) no-repeat bottom;
+    background-size: contain;
+}
+
+.economic_content {
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 810px) {
+    .economic_content {
+        margin-top: 40px;
+    }
+}
+
+.economic_content .economic_helper {
+    text-align: left;
+}
+.economic_content .economic_helper h2 {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.economic_content .economic_helper p {
+    margin-bottom: 40px;
+}
+@media only screen and (max-width: 810px) {
+    .economic_content .economic_helper {
+        text-align: center;
+    }
+    .economic_content .economic_helper h2 {
+        margin-bottom: 10px;
+    }
+    .economic_content .economic_helper p {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .economic_content .economic_advantages {
+        margin-top: 30px
+    }
+}
+.economic_content .economic_advantages .col {
+    display: flex;
+    margin-bottom: 20px;
+}
+.economic_content .economic_advantages .rounded {
+    padding-top: 40px;
+    position: relative;
+}
+.economic_content .economic_advantages .rounded .icon {
+    position: absolute;
+    top: -10px;
+    left: 16px;
+}
+
+
+
